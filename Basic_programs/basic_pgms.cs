@@ -133,7 +133,7 @@ namespace Basic_programs
         {
 
             int a, b, c;
-            Console.WriteLine("Enter Value in a :");
+            Console.WriteLine("\n Enter Value in a :");
             a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Value in b :");
             b = Convert.ToInt32(Console.ReadLine());
@@ -168,6 +168,22 @@ namespace Basic_programs
         else
                 Console.WriteLine(c + " is the largest number.");
         }
-    }
 
+        /// <summary>
+        /// Code for Even or Odd number..
+        /// </summary>
+        public static void Even_Odd()
+        {
+            int num;
+            Console.WriteLine("\n Enter a number:");
+            num = Convert.ToInt32(Console.ReadLine());
+            if (num % 2 == 0)
+                Console.WriteLine("The entered number is even");
+
+            else
+                Console.WriteLine("The entered number is odd");
+
+        }
+    }
+   
 }
