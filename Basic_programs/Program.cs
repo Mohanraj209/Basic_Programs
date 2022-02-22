@@ -11,6 +11,7 @@ namespace Basic_programs
         public static void Main()
         {
             Console.WriteLine("---------**** Basic_Core Programs ****---------");
+            Basic_pgms.Coin_Toss();
         }
     }
 }
