@@ -14,6 +14,7 @@ namespace Basic_programs
             Basic_pgms.Coin_Toss();
             Basic_pgms.Leap_Year();
             Basic_pgms.Power_Two();
+            Basic_pgms.Harmonic_num();
             }
     }
 }

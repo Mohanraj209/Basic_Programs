@@ -51,16 +51,15 @@ namespace Basic_programs
                 Console.WriteLine("{0} is Leap Year", year);
             else
                 Console.WriteLine("{0} is not a Leap Year", year);
-            Console.ReadLine();
         }
 
         /// <summary>
-        /// Code for Power of 2
+        /// Code for Power of 2..
         /// </summary>
         public static void Power_Two()
         {
             int num;
-            Console.WriteLine("Enter N: ");
+            Console.WriteLine("\n Enter num: ");
             num = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Power of 2: ");
@@ -79,6 +78,32 @@ namespace Basic_programs
                 }
             }
         }
+
+        /// <summary>
+        /// Code for Harmonic series..
+        /// </summary>
+        public static void Harmonic_num()
+        {
+            // TODO Auto-generated method stub
+
+            double sum = 0, n, i;
+            Console.WriteLine("\n Please Enter the value of n:");
+            n = Convert.ToInt32(Console.ReadLine());
+            for (i = 1; i <= n; i++)
+            {
+                sum = sum + (1 / i);
+                if (i == 1)
+                   Console.WriteLine("1/ " + i);
+
+                else if (i == n)
+                    Console.WriteLine("1/ " + i);
+
+                else
+                    Console.WriteLine("1/ " + i);
+            }
+            Console.WriteLine("The Sum of the Series : " + sum);
+        }
+
     }
 
 }
