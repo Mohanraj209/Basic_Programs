@@ -104,6 +104,27 @@ namespace Basic_programs
             Console.WriteLine("The Sum of the Series : " + sum);
         }
 
+
+        public static void Factors()
+        {
+
+           Console.WriteLine("\n Enter a number :");
+            int num;
+            num = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 2; i < num; i++)
+            {
+                while (num % i == 0)
+                {
+                    Console.WriteLine(i + " ");
+                    num = num / i;
+                }
+            }
+            if (num > 2)
+            {
+                Console.WriteLine(num);
+            }
+        }
     }
 
 }
