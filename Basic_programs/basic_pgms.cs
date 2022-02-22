@@ -125,6 +125,28 @@ namespace Basic_programs
                 Console.WriteLine(num);
             }
         }
+
+        /// <summary>
+        /// Code for Swap numbers..
+        /// </summary>
+        public static void Swap_num()
+        {
+
+            int a, b, c;
+            Console.WriteLine("Enter Value in a :");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Value in b :");
+            b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Value in c :");
+            c= Convert.ToInt32(Console.ReadLine());
+            a = b;
+            b = c;
+            c = a;
+            Console.WriteLine("Values in a:" + a);
+            Console.WriteLine("Values in b:" + b);
+            Console.WriteLine("Values in c:" + c);
+        }
+
     }
 
 }

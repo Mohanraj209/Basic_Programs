@@ -16,6 +16,7 @@ namespace Basic_programs
             Basic_pgms.Power_Two();
             Basic_pgms.Harmonic_num();
             Basic_pgms.Factors();
+            Basic_pgms.Swap_num();
             }
     }
 }
