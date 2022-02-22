@@ -13,6 +13,7 @@ namespace Basic_programs
             Console.WriteLine("---------**** Basic_Core Programs ****---------");
             Basic_pgms.Coin_Toss();
             Basic_pgms.Leap_Year();
-        }
+            Basic_pgms.Power_Two();
+            }
     }
 }

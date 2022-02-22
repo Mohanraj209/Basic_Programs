@@ -42,7 +42,7 @@ namespace Basic_programs
         /// <summary>
         /// Code for Leap Year.. 
         /// </summary>
-        public static void Leap_Year() 
+        public static void Leap_Year()
         {
             int year;
             Console.Write("\n Enter the Year :");
@@ -51,7 +51,33 @@ namespace Basic_programs
                 Console.WriteLine("{0} is Leap Year", year);
             else
                 Console.WriteLine("{0} is not a Leap Year", year);
-                Console.ReadLine();
+            Console.ReadLine();
+        }
+
+        /// <summary>
+        /// Code for Power of 2
+        /// </summary>
+        public static void Power_Two()
+        {
+            int num;
+            Console.WriteLine("Enter N: ");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Power of 2: ");
+            for (int i = 0; i <= num; i++)
+            {
+                int result = ((int)Math.Pow(2, i));
+
+                if (result <= 0 || result < 31)
+                {
+
+                    Console.WriteLine("Result is: " + result);
+                }
+                else
+                {
+                    Console.WriteLine("Value overflows int value, try again!");
+                }
+            }
         }
     }
 
