@@ -17,6 +17,7 @@ namespace Basic_programs
             Basic_pgms.Harmonic_num();
             Basic_pgms.Factors();
             Basic_pgms.Swap_num();
+            Basic_pgms.Largest_num();
             }
     }
 }

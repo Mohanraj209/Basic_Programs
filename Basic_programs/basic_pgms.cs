@@ -147,6 +147,27 @@ namespace Basic_programs
             Console.WriteLine("Values in c:" + c);
         }
 
+        /// <summary>
+        /// Code for Lagest Numbers..
+        /// </summary>
+        public static void Largest_num()
+        {
+
+            Console.WriteLine("\n Please Enter First Number: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please Enter Second Number: ");
+            int b = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please Enter Third Number ");
+            int c = Convert.ToInt32(Console.ReadLine());
+            if (a >= b && a >= c)
+                Console.WriteLine(a + " is the largest number.");
+
+        else if (b >= a && b >= c)
+                Console.WriteLine(b + " is the largest number.");
+
+        else
+                Console.WriteLine(c + " is the largest number.");
+        }
     }
 
 }
